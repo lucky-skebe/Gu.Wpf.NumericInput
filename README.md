@@ -210,7 +210,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.Culture="sv-se">
         ...
         <numeric:DoubleBox .../>
@@ -228,7 +228,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.ValidationTrigger="PropertyChanged">
         ...
         <numeric:DoubleBox .../>
@@ -246,7 +246,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.CanValueBeNull="True">
         ...
         <numeric:DoubleBox .../>
@@ -264,7 +264,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.NumberStyles="AllowDecimalPoint, AllowLeadingSign">
         ...
         <numeric:DoubleBox .../>
@@ -282,7 +282,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.StringFormat="F2">
         ...
         <numeric:DoubleBox .../>
@@ -300,7 +300,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.DecimalDigits="-2">
         ...
         <numeric:DoubleBox .../>
@@ -318,7 +318,7 @@ Sample:
 ```xaml
 <UserControl x:Class="Gu.Wpf.NumericInput.Demo.DemoView"
              ...
-             xmlns:numeric="http://gu.se/NumericInput">
+             xmlns:numeric="clr-namespace:Gu.Wpf.NumericInput.NetCore;assembly=Gu.Wpf.NumericInput.NetCore">
     <Grid numeric:NumericBox.AllowSpinners="True">
         ...
         <numeric:DoubleBox .../>
